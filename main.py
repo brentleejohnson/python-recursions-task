@@ -11,5 +11,5 @@ def fibonacci_seq(n):
 print("Fibonacci Sequence: ")
 
 
-for i in range(20):
-    print(fibonacci_seq(i))
+for i in range(20):     # instead of n_terms, use 20
+    print(fibonacci_seq(i), end = " ")      # end = " "  -  used to make sequence horizontal
